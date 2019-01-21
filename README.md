@@ -1,6 +1,6 @@
 # HSL PALETTE
 
-Generate palette by darken color, based in this article ( https://refactoringui.com/previews/building-your-color-palette/ )
+Generate palette by darken color, idea inspired in this article ( https://refactoringui.com/previews/building-your-color-palette/ )
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
