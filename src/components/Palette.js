@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import ColorsContext from '../contexts/ColorsContext';
 import styled from 'styled-components';
+import chroma from 'chroma-js';
 
 const ColorView = styled.div`
   width: 100%;
   height: 200px;
-  background: #FFF;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 4px inset rgba(0, 0, 0, .12);
   background: ${props => props.background || 'transparent'};
+  color: ${props => props.color || '#FFF'};
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const ColorsGrid = styled.div`
@@ -26,8 +30,10 @@ export default () => (
       {
         ({selected}) => 
           selected && selected.paletteColors.map(color => {
+            const luminance = chroma(color).luminance();
+
             return (
-              <ColorView key={color} background={color}>
+              <ColorView color={luminance <= .5 ? '#FFF' : '#000'} key={color} background={color}>
                 <span>{color}</span>
               </ColorView>
             );
