@@ -1,13 +1,13 @@
 {
   "main.css": "/hsl-palette/static/css/main.f62475f0.chunk.css",
-  "main.js": "/hsl-palette/static/js/main.14e7ea61.chunk.js",
-  "main.js.map": "/hsl-palette/static/js/main.14e7ea61.chunk.js.map",
+  "main.js": "/hsl-palette/static/js/main.d1c73f07.chunk.js",
+  "main.js.map": "/hsl-palette/static/js/main.d1c73f07.chunk.js.map",
   "static/js/1.2018f8e6.chunk.js": "/hsl-palette/static/js/1.2018f8e6.chunk.js",
   "static/js/1.2018f8e6.chunk.js.map": "/hsl-palette/static/js/1.2018f8e6.chunk.js.map",
   "runtime~main.js": "/hsl-palette/static/js/runtime~main.2e3c26c0.js",
   "runtime~main.js.map": "/hsl-palette/static/js/runtime~main.2e3c26c0.js.map",
   "static/css/main.f62475f0.chunk.css.map": "/hsl-palette/static/css/main.f62475f0.chunk.css.map",
   "index.html": "/hsl-palette/index.html",
-  "precache-manifest.e4959410abfc761371604518769bf39d.js": "/hsl-palette/precache-manifest.e4959410abfc761371604518769bf39d.js",
+  "precache-manifest.38d4682c83747ad0558c273c83bdb78a.js": "/hsl-palette/precache-manifest.38d4682c83747ad0558c273c83bdb78a.js",
   "service-worker.js": "/hsl-palette/service-worker.js"
 }
